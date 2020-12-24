@@ -1,0 +1,38 @@
+.container {
+  width: 100%;
+  /* border: 1px solid white; */
+  height: 80px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.container:focus {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.image {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid white;
+  margin: 12px;
+}
+
+.title {
+  /* color: white; */
+  font-weight: 400;
+  color: #ffffffe8;
+  font-size: 18px;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+  text-decoration: none;
+}
+
+.listContainer {
+  z-index: 20;
+  overflow-y: scroll;
+}
